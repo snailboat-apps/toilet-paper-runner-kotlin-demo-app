@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="3dp">
+            <TextView
+                android:id="@+id/tp_description"
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Target"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:textSize="22sp" />
+            <TextView
+                android:id="@+id/packs"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Available: 4"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/roll_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Rolls per pack: 4"
+                android:layout_centerVertical="true"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/ply_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2-ply"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RatingBar
+                android:id="@+id/quality_rating"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:isIndicator="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

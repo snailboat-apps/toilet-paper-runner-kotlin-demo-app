@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TP Runner</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="stores">Stores</string>
+    <string name="store_details">Store Details</string>
+
+    <string name="brand_charmin">Charmin</string>
+    <string name="brand_cottonelle">Cottonelle</string>
+    <string name="brand_angelsoft">Angel Soft</string>
+    <string name="brand_quiltednorthern">Quilted Northern</string>
+    <string name="brand_other">Store Brand</string>
+
+    <string name="total_packs_format">Packs Available: %d</string>
+    <string name="total_brands_format">Brands Available: %d</string>
+
+    <string name="available_packs_format">Available: %d</string>
+    <string name="ply_count_format">%d-ply</string>
+    <string name="roll_count_format">Rolls Per Pack: %d</string>
+
+</resources>
